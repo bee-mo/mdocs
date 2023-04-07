@@ -8,8 +8,8 @@
     "src": "source"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "mdocs": "npx ts-node src/mdocs.ts"
+    "mdocs": "npx ts-node src/mdocs.ts",
+    "tests": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/bee-mo/mdocs/issues"
   },
-  "homepage": "https://github.com/bee-mo/mdocs#readme"
+  "homepage": "https://github.com/bee-mo/mdocs#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.0"
+  }
 }

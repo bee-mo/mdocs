@@ -1,5 +1,5 @@
 // mdocs - markdown document generator.
-// mdocs run <directory>
+// start: npm run mdocs <directory>
 
 const main = (): void => {};
 
