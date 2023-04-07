@@ -1,0 +1,24 @@
+{
+  "name": "mdocs",
+  "version": "0.1.0",
+  "description": "Markdown website generator.",
+  "main": "src/mdocs.ts",
+  "directories": {
+    "test": "tests",
+    "src": "source"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mdocs": "npx ts-node src/mdocs.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bee-mo/mdocs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bee-mo/mdocs/issues"
+  },
+  "homepage": "https://github.com/bee-mo/mdocs#readme"
+}
