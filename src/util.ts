@@ -24,7 +24,10 @@ const serve_html = (html: string, port: number): void => {
     res.setHeader('content-type', 'text/html');
     res.send(html);
   });
+
+  const url = `http://localhost:${port}`;
   server.listen(port, () => {
-    console.log(`Serving document at: localhost:${port}`);
+    console.log(`Serving document at: ${port}`);
+    require('openurl').open(url);
   });
 }
